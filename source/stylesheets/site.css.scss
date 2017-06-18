@@ -2,11 +2,27 @@ body {
   background-color: #e5f5ff;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+  "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+  "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
-  text-align: center;
+}
+
+aside {
+  position: absolute;
+  right: 0px;
+}
+
+.paper
+{
+  position: relative;
+  width: 500px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
 a {
