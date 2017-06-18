@@ -1,0 +1,8 @@
+<% wrap_layout :layout do %>
+  <div class="paper">
+    <h2><%= current_article.data.title %></h2>
+    <%= yield %>
+    <br>
+    <%= link_to 'Back', '/' %>
+  </div>
+<% end %>

@@ -2,7 +2,7 @@
 
 title: Getting Into Open Source
 date: 2017-05-28 19:51 UTC
-tags:
+tags: open-source, gsoc
 
 ---
 
