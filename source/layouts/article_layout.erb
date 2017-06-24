@@ -1,8 +1,11 @@
 <% wrap_layout :layout do %>
-  <div class="paper">
-    <h2><%= current_article.data.title %></h2>
-    <%= yield %>
-    <br>
-    <%= link_to 'Back', '/' %>
+  <div class="row justify-content-center">
+    <div class="col-sm-6">
+      <h2><%= current_article.data.title %></h2>
+      <br>
+      <%= yield %>
+      <br>
+      <%= link_to 'Back', '/' %>
+    </div>
   </div>
 <% end %>
