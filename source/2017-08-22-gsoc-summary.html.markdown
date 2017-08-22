@@ -14,7 +14,9 @@ Main goal was to create comparison chart which would be used to measure framewor
 
 
 <h4>Work done</h4>
-<img src="images/comparison-chart.png">
 
-#####Comparison chart
+<h6>Comparison chart</h6>
+
+You are now able to compare results on RubyBench. I have used HighStock multiseries feature to get this nice visualization.
+<img src="images/comparison-chart.png">
 
