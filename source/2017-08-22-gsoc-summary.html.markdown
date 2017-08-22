@@ -47,7 +47,16 @@ https://github.com/ruby-bench/ruby-bench-suite/pull/94 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/102 <br>
 
 <h5>Admin UI</h5>
-This was needed for some time for convenience. If you want to run suite for number of commits, you can do it through admin UI.
+
+This was needed for some time for convenience. <br>
+Sometimes you want to run suite for number of previous commits, you can do it through admin UI.
+<img src="images/manual-runner.png">
+
+
+Marking benchmarks with groups to avoid comparing :apple: to :orange:
+
+<img src="images/benchmark-groups.png">
+
 
 <h6>Code</h6>
 
