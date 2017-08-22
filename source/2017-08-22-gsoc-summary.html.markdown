@@ -30,6 +30,7 @@ https://github.com/ruby-bench/ruby-bench-web/pull/216 <br>
 https://github.com/ruby-bench/ruby-bench-web/pull/231 <br>
 
 <h5>Suite for pg gem</h5>
+Measuring framework overhead required having results for raw SQL benchmarks.
 
 <h6>Code</h6>
 
@@ -65,6 +66,8 @@ https://github.com/ruby-bench/ruby-bench-web/pull/227 <br>
 https://github.com/ruby-bench/ruby-bench-web/pull/234 <br>
 
 <h5>Storing logs on runner server</h5>
+Logs for suite runs were scattered over random temporary files.
+We needed these logs in one place to be able to debug errors easily.
 
 <h6>Code</h6>
 
@@ -74,6 +77,8 @@ https://github.com/ruby-bench/ruby-bench-docker/pull/26 <br>
 https://github.com/ruby-bench/ruby-bench-docker/pull/27 <br>
 
 <h5>Fixed broken Rails suite</h5>
+Rails suite were broken for some time due to dated versions.
+These are relived again.
 
 <h6>Code</h6>
 
@@ -86,6 +91,9 @@ https://github.com/ruby-bench/ruby-bench-suite/pull/89 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/90 <br>
 
 <h5>Other</h5>
+
+Previous three months I've made number of contributions unrelated to main project goal.
+Mostly I've been trying to fix and improve anything that got on my way :
 
 https://github.com/ruby-bench/ruby-bench-suite/pull/78 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/79 <br>
