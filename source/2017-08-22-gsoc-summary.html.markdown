@@ -42,10 +42,18 @@ https://github.com/ruby-bench/ruby-bench-docker/pull/43 <br>
 https://github.com/ruby-bench/ruby-bench-docker/pull/44 <br>
 https://github.com/ruby-bench/ruby-bench-docker/pull/45 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/76 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/92 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/94 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/102 <br>
 
 <h5>Admin UI</h5>
+This was needed for some time for convenience. If you want to run suite for number of commits, you can do it through admin UI.
 
 <h6>Code</h6>
+
+https://github.com/ruby-bench/ruby-bench-web/pull/210 <br>
+https://github.com/ruby-bench/ruby-bench-web/pull/227 <br>
+https://github.com/ruby-bench/ruby-bench-web/pull/234 <br>
 
 <h5>Storing logs on runner server</h5>
 
@@ -65,6 +73,8 @@ https://github.com/ruby-bench/ruby-bench-docker/pull/29 <br>
 https://github.com/ruby-bench/ruby-bench-docker/pull/30 <br>
 https://github.com/ruby-bench/ruby-bench-docker/pull/31 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/84 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/89 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/90 <br>
 
 <h5>Other</h5>
 
@@ -74,3 +84,5 @@ https://github.com/ruby-bench/ruby-bench-suite/pull/81 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/83 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/85 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/86 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/88 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/100 <br>
