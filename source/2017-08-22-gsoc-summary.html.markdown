@@ -15,8 +15,62 @@ Main goal was to create comparison chart which would be used to measure framewor
 
 <h4>Work done</h4>
 
-<h6>Comparison chart</h6>
+<h5>Comparison chart</h5>
 
-You are now able to compare results on RubyBench. I have used HighStock multiseries feature to get this nice visualization.
+Main goal has been accomplished - you are now able to compare results on RubyBench. I have used HighStock multiseries feature to get this nice visualization.
 <img src="images/comparison-chart.png">
 
+<h6>Code</h6>
+
+https://github.com/ruby-bench/ruby-bench-web/pull/199 <br>
+https://github.com/ruby-bench/ruby-bench-web/pull/202 <br>
+https://github.com/ruby-bench/ruby-bench-web/pull/203 <br>
+https://github.com/ruby-bench/ruby-bench-web/commit/9bb7b392d7bed6c7866293e25d73165b2cb42ace <br>
+https://github.com/ruby-bench/ruby-bench-web/pull/216 <br>
+https://github.com/ruby-bench/ruby-bench-web/pull/231 <br>
+
+<h5>Suite for pg gem</h5>
+
+<h6>Code</h6>
+
+https://github.com/ruby-bench/ruby-bench-web/pull/243 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/35 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/36 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/37 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/38 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/43 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/44 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/45 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/76 <br>
+
+<h5>Admin UI</h5>
+
+<h6>Code</h6>
+
+<h5>Storing logs on runner server</h5>
+
+<h6>Code</h6>
+
+https://github.com/ruby-bench/ruby-bench-web/commit/9bb7b392d7bed6c7866293e25d73165b2cb42ace <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/25 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/26 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/27 <br>
+
+<h5>Fixed broken Rails suite</h5>
+
+<h6>Code</h6>
+
+https://github.com/ruby-bench/ruby-bench-docker/pull/28 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/29 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/30 <br>
+https://github.com/ruby-bench/ruby-bench-docker/pull/31 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/84 <br>
+
+<h5>Other</h5>
+
+https://github.com/ruby-bench/ruby-bench-suite/pull/78 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/79 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/81 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/83 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/85 <br>
+https://github.com/ruby-bench/ruby-bench-suite/pull/86 <br>
