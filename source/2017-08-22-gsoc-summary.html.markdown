@@ -15,9 +15,14 @@ Main goal was to create comparison chart which would be used to measure framewor
 
 <h4>Work done</h4>
 
+Working on RubyBench was awesome experience and I've enjoyed every contribution. We have accomplished main goal this year and had a lot of additional unrelated contributions.
+
+Following Pull Requests are from last three months:
+
 <h5>Comparison chart</h5>
 
 Main goal has been accomplished - you are now able to compare results on RubyBench. I have used HighStock multiseries feature to get this nice visualization.
+
 <img src="images/comparison-chart.png">
 
 <h6>Code</h6>
@@ -51,6 +56,7 @@ https://github.com/ruby-bench/ruby-bench-suite/pull/102 <br>
 
 This was needed for some time for convenience. <br>
 Sometimes you want to run suite for number of previous commits, you can do it through admin UI.
+
 <img src="images/manual-runner.png">
 
 
@@ -103,3 +109,7 @@ https://github.com/ruby-bench/ruby-bench-suite/pull/85 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/86 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/88 <br>
 https://github.com/ruby-bench/ruby-bench-suite/pull/100 <br>
+
+<h4>Future work</h4>
+
+<h4>Acknowledgments</h4>
