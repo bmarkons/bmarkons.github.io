@@ -5,16 +5,32 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-06-28T20:22:00+02:00</updated>
+  <updated>2017-09-10T17:21:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Crafting RubyBench &amp;#35;2</title>
+    <link rel="alternate" href="http://blog.url.com/2017/09/10/crafting-rubybench-2/"/>
+    <id>http://blog.url.com/2017/09/10/crafting-rubybench-2/</id>
+    <published>2017-09-10T17:21:00+02:00</published>
+    <updated>2019-12-15T20:38:26+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is the second article related to my contributions to the RubyBench project.
+This article outlines improvements brought to RubyBench in the last four months.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/bmarkons/78d7568dbccf2b79263965860c78762e.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Crafting RubyBench &amp;#35;1</title>
     <link rel="alternate" href="http://blog.url.com/2017/06/28/crafting-rubybench-1/"/>
     <id>http://blog.url.com/2017/06/28/crafting-rubybench-1/</id>
     <published>2017-06-28T20:22:00+02:00</published>
-    <updated>2019-12-15T20:27:28+01:00</updated>
+    <updated>2019-12-15T20:38:28+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -32,7 +48,8 @@ Though you couldn't tell which one performs better or even how changing library 
 Being able to compare performance between ORM libraries can be useful when deciding which one to use in your stack.
 How much performance is left on table when using one? You may want to take that insight into account.&lt;/p&gt;
 
-&lt;p&gt;Following are some comparison highlights :&lt;/p&gt;
+&lt;p&gt;Following are some comparison highlights:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;a target="_blank" href="https://rubybench.org/rails/rails/commits?result_type=activerecord/mysql2_scope_all&amp;amp;display_count=200&amp;amp;compare_with=activerecord/postgres_scope_all"&gt;ActiveRecord and Sequel performs better with postgres.&lt;/a&gt;
