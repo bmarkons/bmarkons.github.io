@@ -5,16 +5,29 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-06-28T20:22:00+02:00</updated>
+  <updated>2017-09-10T17:21:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Crafting RubyBench &amp;#35;2</title>
+    <link rel="alternate" href="http://blog.url.com/2017/09/10/crafting-rubybench-2/"/>
+    <id>http://blog.url.com/2017/09/10/crafting-rubybench-2/</id>
+    <published>2017-09-10T17:21:00+02:00</published>
+    <updated>2019-12-15T20:27:27+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;script src="https://gist.github.com/bmarkons/78d7568dbccf2b79263965860c78762e.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Crafting RubyBench &amp;#35;1</title>
     <link rel="alternate" href="http://blog.url.com/2017/06/28/crafting-rubybench-1/"/>
     <id>http://blog.url.com/2017/06/28/crafting-rubybench-1/</id>
     <published>2017-06-28T20:22:00+02:00</published>
-    <updated>2019-12-15T19:23:39+01:00</updated>
+    <updated>2019-12-15T20:27:28+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
