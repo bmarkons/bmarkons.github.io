@@ -20,7 +20,8 @@ Though you couldn't tell which one performs better or even how changing library 
 Being able to compare performance between ORM libraries can be useful when deciding which one to use in your stack.
 How much performance is left on table when using one? You may want to take that insight into account.
 
-Following are some comparison highlights :
+Following are some comparison highlights:
+
 <ul>
   <li>
     <a target="_blank" href="https://rubybench.org/rails/rails/commits?result_type=activerecord/mysql2_scope_all&display_count=200&compare_with=activerecord/postgres_scope_all">ActiveRecord and Sequel performs better with postgres.</a>
