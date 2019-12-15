@@ -11,7 +11,7 @@ per_page: 10
 <% end %>
 
 <% page_articles.group_by { |article| article.date.strftime("%Y") }.each do |year, articles| %>
-  <h4 class="row col-sm-6 justify-content-center top-buffer"><%= year %></h4>
+  <h4 class="row col-sm-6 justify-content-center top-buffer" style="font-family: monospace;"><%= year %></h4>
   <% articles.each do |article| %>
     <div class="row justify-content-center top-buffer">
       <div class="card col-sm-6">
