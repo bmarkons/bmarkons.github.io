@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Crafting RubyBench &#35;1</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container" role="main" style="padding: 50px;">
+        <div class="row justify-content-center">
+    <a href="/" class="sticky-top btn btn-primary">Done reading</a>
+    <div class="col-sm-12">
+      <h2>Crafting RubyBench &#35;1</h2>
+      <br>
+      <p>Recently I have started contributing to Ruby Bench project.
+I wrote a few words about it in my <a target="_blank" href="/2017/05/28/getting-into-open-source/">previous post</a>.</p>
+
+<p>In this post I want to summarize contributions I've made during last month.</p>
+
+<h4>Sequel benchmarks</h4>
+<p>Finally we have Sequel benchmarks set up and running. Some results are already <a target="_blank" href="https://rubybench.org/jeremyevans/sequel/commits?result_type=sequel/mysql2_scope_all&amp;display_count=2000">onsite</a>. Last year GSoC student got most of work done here, I was happy to finish it up and make it onsite.</p>
+
+<h4>Comparing results between libraries</h4>
+<p>So far you could have tracked performance of various libraries and platforms present on Ruby Bench.
+Though you couldn't tell which one performs better or even how changing library dependencies affect its performance.
+Being able to compare performance between ORM libraries can be useful when deciding which one to use in your stack.
+How much performance is left on table when using one? You may want to take that insight into account.</p>
+
+<p>Following are some comparison highlights :</p>
+<ul>
+  <li>
+    <a target="_blank" href="https://rubybench.org/rails/rails/commits?result_type=activerecord/mysql2_scope_all&amp;display_count=200&amp;compare_with=activerecord/postgres_scope_all">ActiveRecord and Sequel performs better with postgres.</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://rubybench.org/rails/rails/commits?result_type=activerecord/mysql2_scope_all&amp;display_count=20&amp;compare_with=sequel/mysql2_scope_all">Sequel performs generally faster than ActiveRecord.</a>
+  </li>
+</ul>
+
+<p>Further we need some comparison insight how much performance is being left on table. Therefore we need to have these benchmarks running against raw <a target="_blank" href="https://github.com/brianmario/mysql2">mysql</a> and <a target="_blank" href="https://github.com/ged/ruby-pg">pg</a> gems. Maybe ruby implementation comparisons would be interesting to see?</p>
+
+<h4>Other contributions</h4>
+<p>During last month I've made number of other smaller contributions.</p>
+<ul>
+  <li><a href="https://github.com/ruby-bench/ruby-bench-web/issues/193" target="_blank">Fixed</a> Rails benchmarks which were broken for some time.</li>
+  <li>We can now run benchmark suite <a href="https://github.com/ruby-bench/ruby-bench-web/pull/210" target="_blank">manually</a> for number of last commits.</li>
+</ul>
+<h4>Next steps</h4>
+<p>As Sam Saffron <a href="https://community.rubybench.org/t/how-can-active-record-be-faster/142/11" target="_blank">suggested</a>, we need to make our benchmarks more honest and put them in order. Next step is to add <i>real world</i> bench. Here's <a href="https://github.com/ruby-bench/ruby-bench-suite/pull/88" target="_blank">WIP</a> regarding this.</p>
+
+      <br>
+      <a href="/">Back</a>
+      <div id="disqus_thread"></div>
+      <script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+       */
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://blog-ruu78wfa3r.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div>
+
+    </div>
+  </body>
+</html>
