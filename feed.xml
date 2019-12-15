@@ -5,16 +5,28 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-09-10T17:21:00+02:00</updated>
+  <updated>2018-10-08T13:10:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Crafting RubyBench - The Talk 🎤</title>
+    <link rel="alternate" href="http://blog.url.com/2018/10/08/crafting-rubybench-the-talk/"/>
+    <id>http://blog.url.com/2018/10/08/crafting-rubybench-the-talk/</id>
+    <published>2018-10-08T13:10:00+02:00</published>
+    <updated>2019-12-15T21:12:19+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;iframe src="https://www.youtube.com/embed/tNxGoaKmc10?list=PLAkGYJoUfB0v4ssiPcL_OIM1-t_LssfAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
   <entry>
     <title>Crafting RubyBench &amp;#35;2</title>
     <link rel="alternate" href="http://blog.url.com/2017/09/10/crafting-rubybench-2/"/>
     <id>http://blog.url.com/2017/09/10/crafting-rubybench-2/</id>
     <published>2017-09-10T17:21:00+02:00</published>
-    <updated>2019-12-15T20:38:26+01:00</updated>
+    <updated>2019-12-15T21:12:21+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
