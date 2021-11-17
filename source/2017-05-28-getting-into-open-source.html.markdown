@@ -1,6 +1,6 @@
 ---
 
-title: Getting Into Open Source &nbsp;&#9875;
+title: Getting Into The Open Source
 date: 2017-05-28 19:51 UTC
 tags: open-source, gsoc
 
